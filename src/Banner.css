@@ -1,0 +1,48 @@
+.banner{
+    background: url(https://prd-mp-images.azureedge.net/7e5fcc0d-0eb7-45e2-b7d0-92a6c7303628/image/cef618f1-f58e-4ab4-a237-d8c1277c6776/apartmentbanner.jpg);
+    height: 70vh;
+    position: relative;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.banner_info{
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+
+}
+
+.banner_search{
+    background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_search>button{
+   background-color: white;
+   font-weight: 900;
+   text-transform: inherit;
+   color: #ff7779;
+}
+
+.banner_info > h5 {
+    margin-top: 50px;
+}
+.banner_info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner_info > button :hover{
+    background-color : white;
+    color : #ff7779;
+}
